@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/gray"
+    android:background="@color/black"
     tools:context=".catalogo">
 
     <LinearLayout
@@ -37,7 +37,7 @@
      <GridView
          android:id="@+id/movies_catalogo"
          android:layout_width="match_parent"
-         android:layout_height="250dp"
+         android:layout_height="290dp"
          android:numColumns="3"
          android:layout_marginTop="18dp"
          android:paddingHorizontal="6dp"/>
@@ -72,9 +72,9 @@
     <GridView
         android:id="@+id/mseries_catalogo"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="290dp"
         android:numColumns="3"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="10dp"
         android:paddingHorizontal="6dp"/>
 
 </LinearLayout>

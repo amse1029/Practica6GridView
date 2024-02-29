@@ -21,7 +21,6 @@
 
         <TextView
             android:id="@+id/tv_nombre_pelicula"
-            android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:paddingLeft="25dp"
@@ -36,9 +35,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingHorizontal="25dp"
-            android:textSize="14sp"
+            android:textSize="16dp"
             android:text="Duna: Parte Dos explorará el viaje mítico de Paul Atreides mientras se une con Chani y los Fremen mientras está en un camino de venganza contra los conspiradores que destruyeron a su familia. Enfrentando una elección entre el amor de su vida y el destino del universo conocido, se esfuerza por evitar un futuro terrible que solo él pueda prever."
-            android:textColor="@color/yellow" />
+            android:textColor="@color/yellow"
+            android:gravity="center"/>
 
     </LinearLayout>
 </LinearLayout>

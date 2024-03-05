@@ -87,11 +87,12 @@ class PeliculaAdapter:BaseAdapter {
 
         image.setOnClickListener {
             var intento = Intent(context, detalle_pelicula::class.java)
+            val c = SeatSelection()
             intento.putExtra("titulo", pelicula.titulo)
             intento.putExtra("imagen", pelicula.image)
             intento.putExtra("header", pelicula.header)
             intento.putExtra("sinopsis", pelicula.sinopsis)
-            intento.putExtra("numberSeats",(20-pelicula.seats.size))
+            intento.putExtra("numberSeats",((20-pelicula.seats.size)).toString())
             context!!.startActivity(intento)
         }
         return vista
